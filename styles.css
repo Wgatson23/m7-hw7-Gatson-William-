@@ -133,7 +133,6 @@ footer {
 
 span.tooltip {
 	color: var(--danger-color);
-	position: relative;
 	cursor: pointer;
 }
 
@@ -142,6 +141,7 @@ span.tooltip:hover,
 span.tooltip:focus {
 	text-decoration: underline;
 }
+
 /* show tooltip on hover/focus */
 span.tooltip:hover > span,
 span.tooltip:focus > span {
@@ -156,4 +156,23 @@ span.tooltip span {
 /* styling for tooltip bubble arrow */
 span.tooltip span::after {
 	content: "";
+}
+
+.hero {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	position: sticky;
+	top: 0;
+	padding: 10px;
+}
+
+p:nth-child(2):first-letter {
+	color: blue;
+	padding: 0 0.3rem;
+	margin: 0 0.3rem 0 0;
+	border: 2px solid;
+	border-radius: 8px;
+	font-size: 4rem;
+	line-height: 1;
 }
