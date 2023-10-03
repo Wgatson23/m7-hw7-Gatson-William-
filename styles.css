@@ -135,6 +135,7 @@ span.tooltip {
 	color: var(--danger-color);
 	position: relative;
 	cursor: pointer;
+	display: inline;
 }
 
 /* underline span on hover/focus */
@@ -193,7 +194,7 @@ span.tooltip span::after {
 
 p:nth-child(2):first-letter {
 	float: left;
-	color: blue;
+	color: hotpink;
 	padding: 0 0.3rem;
 	margin: 0 0.3rem 0 0;
 	border: 2px solid;
