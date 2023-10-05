@@ -102,6 +102,9 @@ section.hero > button {
 	border-radius: 12px;
 	text-transform: uppercase;
 }
+section.hero{
+z-index: 1;
+}
 
 main article {
 	padding: 48px 96px;
@@ -154,7 +157,6 @@ span.tooltip:focus > span {
 
 /* styling for tooltip bubble */
 span.tooltip span {
-	z-index: 1;
 	bottom: 150%;
 	left: 50%;
 	margin-left: -60px;
